@@ -25,14 +25,18 @@ class PublicClient:
         self.sources=[]
     def get(self,url,guest=False,post=False):
         cmd=['curl','--fail','--silent','--show-error','--max-time','30',
-             '--max-filesize','10000000','--header','Accept: application/json']
+             '--max-filesize','10000000','--header','Accept: application/json',
+             '--write-out','%{stderr}HTTP_STATUS:%{http_code}']
         if guest:cmd+=['--cookie',self.cookie_file,'--cookie-jar',self.cookie_file]
         if post:cmd+=['--request','POST']
         cmd.append(url)
         result=subprocess.run(cmd,capture_output=True,timeout=35)
         if result.returncode:
             # Do not include response cookies or anonymous token bodies in logs.
-            raise CollectionError(f'Public source request failed (curl {result.returncode}): {urlsplit(url).netloc}')
+            status=re.search(rb'HTTP_STATUS:([0-9]{3})',result.stderr)
+            code=status.group(1).decode() if status else 'unknown'
+            target=urlsplit(url)
+            raise CollectionError(f'Public source request failed (HTTP {code}, curl {result.returncode}): {target.netloc}{target.path}')
         try:data=json.loads(result.stdout)
         except (ValueError,UnicodeError) as exc:raise CollectionError('Source returned non-JSON content') from exc
         if not post:self.sources.append({'url':url,'sha256':hashlib.sha256(result.stdout).hexdigest()})

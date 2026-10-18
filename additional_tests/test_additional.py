@@ -1,6 +1,7 @@
 import copy
 import json
 import tempfile
+from types import SimpleNamespace
 import unittest
 from datetime import date
 from pathlib import Path
@@ -67,6 +68,12 @@ class AdditionalTests(unittest.TestCase):
    with patch('collect_additional.collect',side_effect=c.CollectionError('blocked')):
     self.assertEqual(c.main(['tyneside','--output',str(p)]),1)
    self.assertEqual(p.read_text(),'previous')
+ def test_request_error_does_not_leak_credentials(self):
+  failed=SimpleNamespace(returncode=22,stdout=b'secret token body',stderr=b'private cookie HTTP_STATUS:403')
+  with patch('collect_additional.subprocess.run',return_value=failed):
+   with self.assertRaises(c.CollectionError) as caught:c.PublicClient('/tmp/unused').get('https://www.myvue.com/api/microservice/auth/token?secret=hidden',post=True)
+  self.assertIn('HTTP 403',str(caught.exception))
+  self.assertNotIn('secret',str(caught.exception));self.assertNotIn('private cookie',str(caught.exception))
  def test_live_feed_output_refused(self):
   with tempfile.TemporaryDirectory() as tmp:
    p=Path(tmp)/'screenings.json';p.write_text('live')
