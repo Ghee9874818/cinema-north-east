@@ -1,0 +1,35 @@
+name: Alnwick collector review
+on:
+  push:
+    branches:
+      - test/alnwick-api-collector
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Record website files before collection
+        run: sha256sum index.html screenings.json > /tmp/website-files.sha256
+      - name: Test collector
+        run: python -m unittest discover -s tests -v
+      - name: Collect a review candidate
+        run: python collect_spektrix.py --output work/alnwick-candidate.json
+      - name: Confirm collection preserved website files
+        if: always()
+        run: sha256sum --check /tmp/website-files.sha256
+      - name: Save candidate for human review
+        uses: actions/upload-artifact@v4
+        with:
+          name: alnwick-review-candidate
+          path: work/alnwick-candidate.json
+          if-no-files-found: error
+          retention-days: 7
