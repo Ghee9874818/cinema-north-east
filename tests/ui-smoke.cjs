@@ -19,4 +19,13 @@ assert.equal(await page.evaluate(()=>safeBooking('https://purchase.everymancinem
 assert.equal(await page.evaluate(()=>valid(['2026-02-30','13:00','Film','','Alnwick Playhouse'])),false);
 assert.deepEqual(await page.evaluate(()=>{extras.push(['2026-10-18','13:00','Personal film','User added','Alnwick Playhouse']);return allRows().at(-1).slice(5,7)}),['','personal']);
 const downloadPromise=page.waitForEvent('download');await page.click('#export-all');const download=await downloadPromise;const stream=await download.createReadStream();const chunks=[];for await(const chunk of stream)chunks.push(chunk);const exported=JSON.parse(Buffer.concat(chunks).toString());const official=exported.screenings.find(r=>r.id==='test-id');assert.equal(official.format,'2D');assert.equal(official.screen,'Screen 1');assert.equal(official.notes,candidate.screenings[0].notes);const personal=exported.screenings.find(r=>r.title==='Personal film');assert.equal(personal.source,'personal');assert.equal(personal.bookingUrl,'');
+const published=JSON.parse(fs.readFileSync('screenings.json','utf8'));
+if(published.venueStatus){
+ Object.assign(feed,published); await page.reload();
+ await page.waitForFunction(()=>document.querySelector('#feed-status').textContent.includes('Official-source'));
+ for(const venue of Object.keys(published.venueStatus)){
+  await page.selectOption('#venue',venue);await page.selectOption('#day','all');await page.fill('#q','');
+  assert.equal(await page.locator('.item').count(),published.screenings.filter(r=>r.cinema===venue).length);
+ }
+}
 assert.deepEqual(errors,[]);console.log('UI smoke passed: links, notes, filters, unavailable states, mobile width, no JS errors');await browser.close();})().catch(e=>{console.error(e);process.exit(1)});
