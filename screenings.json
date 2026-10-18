@@ -1743,7 +1743,7 @@
   "venueStatus": {
     "Alnwick Playhouse": {
       "status": "collected",
-      "collectedAt": "2026-10-18T15:54:41.085391+00:00",
+      "collectedAt": "2026-10-18T15:57:26.068749+00:00",
       "coverage": {
         "from": "2026-10-18",
         "through": "2026-10-24"
@@ -1763,7 +1763,7 @@
     },
     "Tyneside Cinema": {
       "status": "collected",
-      "collectedAt": "2026-10-18T15:54:42.154049+00:00",
+      "collectedAt": "2026-10-18T15:57:26.977145+00:00",
       "coverage": {
         "from": "2026-10-18",
         "through": "2026-10-24"
@@ -1783,7 +1783,7 @@
     },
     "Everyman Newcastle": {
       "status": "collected",
-      "collectedAt": "2026-10-18T15:54:44.232045+00:00",
+      "collectedAt": "2026-10-18T15:57:28.821092+00:00",
       "coverage": {
         "from": "2026-10-18",
         "through": "2026-10-24"
@@ -1819,5 +1819,5 @@
       "error": "Official automated source unavailable; no verified programme"
     }
   },
-  "generatedAt": "2026-10-18T15:54:46.525431+00:00"
+  "generatedAt": "2026-10-18T15:57:30.018074+00:00"
 }
