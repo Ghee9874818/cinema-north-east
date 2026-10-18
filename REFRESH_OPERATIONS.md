@@ -1,3 +1,7 @@
+# Current activation status
+
+Initial unscheduled end-to-end refresh succeeded on 18 October 2026 in run 39142591901: 82 tests, three fresh sources, feed commit, explicit Pages deployment and public-byte verification. Daily 08:17 Europe/London schedule is now configured. The schedule-activation run must pass before the older private review schedule is retired. The staged procedure below is retained as operational history.
+
 # Daily official-source refresh
 
 This is the staged replacement for the private Alnwick-only review schedule.

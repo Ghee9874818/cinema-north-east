@@ -1,6 +1,6 @@
 # Cinema North East integration review
 
-18 October 2026. The integrated collectors and feed/UI safeguards pass 56 unit tests. Actual GitHub Actions browser smoke passed on commits cb251b2 and 97ccf9a, covering direct booking links, notes, filters, mobile width, export metadata and unavailable states. The final proposed-feed browser gate additionally checks all seven venues against the published data.
+18 October 2026. The integrated collectors and feed/UI safeguards pass 82 unit tests. Actual GitHub Actions browser smoke passed on commits cb251b2 and 97ccf9a, covering direct booking links, notes, filters, mobile width, export metadata and unavailable states. The final proposed-feed browser gate additionally checks all seven venues against the published data.
 
 ## Fresh publication candidate
 
@@ -16,7 +16,7 @@ Feed validation retains notes, formats, screens and IDs; rejects conflicting IDs
 
 The additional-collector, Alnwick and interface workflows are review-only and cannot publish listings. They trigger on relevant test-branch pushes or manual dispatch. Vue failure makes the collection matrix red even when the other venues succeed; it is never relabelled as a successful empty programme.
 
-No automatic publication schedule is enabled by this snapshot rollout. Future refresh must retain failure and freshness handling.
+The daily refresh pipeline is configured for 08:17 Europe/London, using validated fresh candidates, last-good preservation, explicit Pages deployment and public-byte verification. The first unscheduled end-to-end run 39142591901 passed all gates.
 
 ## Checks
 

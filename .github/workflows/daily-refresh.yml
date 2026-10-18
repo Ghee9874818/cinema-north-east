@@ -1,6 +1,8 @@
 name: Daily cinema refresh and publication
 on:
-  # Add the documented 08:17 Europe/London schedule only after the first verified deployment.
+  schedule:
+    - cron: '17 8 * * *'
+      timezone: Europe/London
   workflow_dispatch:
   push:
     branches: [main]
