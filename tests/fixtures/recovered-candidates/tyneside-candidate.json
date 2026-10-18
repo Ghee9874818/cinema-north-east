@@ -1,0 +1,856 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "cinema": "Tyneside Cinema",
+  "collectionMode": "live-public-source",
+  "collectedAt": "2026-10-18T11:05:25.448692+00:00",
+  "updateMode": "review-candidate-only",
+  "sources": [
+    {
+      "url": "https://system.spektrix.com/tynesidecinema/api/v3/events?instanceStart_from=2026-10-18&instanceStart_to=2026-10-25",
+      "sha256": "b3f9a9cc5e0d00f86eba01c5b9e66ec168852b279a3429d7de044ebb9facd8ba"
+    },
+    {
+      "url": "https://system.spektrix.com/tynesidecinema/api/v3/instances?startFrom=2026-10-18&startTo=2026-10-25",
+      "sha256": "95335d78278e0202160947455fab5c291a33dbd23167597f0489ca753fbb00d9"
+    }
+  ],
+  "coverage": {
+    "from": "2026-10-18",
+    "through": "2026-10-24"
+  },
+  "screenings": [
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Corpse Bride [2026]",
+      "date": "2026-10-18",
+      "time": "10:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1851401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Arrietty",
+      "date": "2026-10-18",
+      "time": "10:30",
+      "notes": "Screen not supplied by feed · Subtitled · Relaxed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1838003/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "date": "2026-10-18",
+      "time": "10:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1874804/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Tenzing",
+      "date": "2026-10-18",
+      "time": "11:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1874805/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Marathon Man",
+      "date": "2026-10-18",
+      "time": "12:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876601/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Met Opera: Macbeth",
+      "date": "2026-10-18",
+      "time": "13:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1704401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Arrietty",
+      "date": "2026-10-18",
+      "time": "13:15",
+      "notes": "Screen not supplied by feed · Subtitled",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1874601/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1797202/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Pressure",
+      "date": "2026-10-18",
+      "time": "14:10",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876403/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Lost Children of Tuam",
+      "date": "2026-10-18",
+      "time": "15:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876006/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Sense and Sensibility (2026)",
+      "date": "2026-10-18",
+      "time": "16:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1874603/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-18",
+      "time": "17:10",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1870805/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Dracula (4K Restoration)",
+      "date": "2026-10-18",
+      "time": "17:15",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1871601/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Case 137",
+      "date": "2026-10-18",
+      "time": "17:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875203/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Tenzing",
+      "date": "2026-10-18",
+      "time": "19:15",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876807/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Club Kid (BFI LFF)",
+      "date": "2026-10-18",
+      "time": "19:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1844201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Social Reckoning",
+      "date": "2026-10-18",
+      "time": "20:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Digger",
+      "date": "2026-10-18",
+      "time": "20:10",
+      "notes": "Screen not supplied by feed · Captioned for hard of hearing",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875002/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Arrietty",
+      "date": "2026-10-19",
+      "time": "11:40",
+      "notes": "Screen not supplied by feed · Subtitled",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1874801/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Case 137",
+      "date": "2026-10-19",
+      "time": "11:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875204/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-19",
+      "time": "12:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876804/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Deadline",
+      "date": "2026-10-19",
+      "time": "13:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1870403/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Tenzing",
+      "date": "2026-10-19",
+      "time": "14:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876808/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Sense and Sensibility (2026)",
+      "date": "2026-10-19",
+      "time": "14:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875604/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Uprising",
+      "date": "2026-10-19",
+      "time": "15:00",
+      "notes": "Screen not supplied by feed · Captioned for hard of hearing",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878801/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Comédie Française",
+      "date": "2026-10-19",
+      "time": "15:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1874802/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Social Reckoning",
+      "date": "2026-10-19",
+      "time": "17:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878004/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-19",
+      "time": "17:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1871801/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Extra Geography",
+      "date": "2026-10-19",
+      "time": "17:50",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875803/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Lost Children of Tuam",
+      "date": "2026-10-19",
+      "time": "18:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876810/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Debut (BFI LFF)",
+      "date": "2026-10-19",
+      "time": "19:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1843803/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Digger",
+      "date": "2026-10-19",
+      "time": "20:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Case 137",
+      "date": "2026-10-19",
+      "time": "20:10",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875205/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Godzilla Minus One",
+      "date": "2026-10-19",
+      "time": "20:15",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1873204/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Social Reckoning",
+      "date": "2026-10-20",
+      "time": "12:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878002/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Case 137",
+      "date": "2026-10-20",
+      "time": "12:40",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875206/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Sense and Sensibility (2026)",
+      "date": "2026-10-20",
+      "time": "14:30",
+      "notes": "Screen not supplied by feed · Captioned for hard of hearing",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875605/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Deadline",
+      "date": "2026-10-20",
+      "time": "14:50",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1870404/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Comédie Française",
+      "date": "2026-10-20",
+      "time": "15:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875602/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Lost Children of Tuam",
+      "date": "2026-10-20",
+      "time": "15:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1877803/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Uprising",
+      "date": "2026-10-20",
+      "time": "17:15",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878802/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Queen: Budapest",
+      "date": "2026-10-20",
+      "time": "17:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1877201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Social Reckoning",
+      "date": "2026-10-20",
+      "time": "17:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878003/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "My Cinema Clinic: Menopause",
+      "date": "2026-10-20",
+      "time": "18:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1837201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Tenzing",
+      "date": "2026-10-20",
+      "time": "19:40",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1877402/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-20",
+      "time": "20:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1870807/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Digger",
+      "date": "2026-10-20",
+      "time": "20:15",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876003/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Others (25th Anniversary 4K Restoration)",
+      "date": "2026-10-20",
+      "time": "20:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1857601/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Shadows of Beirut",
+      "date": "2026-10-21",
+      "time": "11:00",
+      "notes": "Screen not supplied by feed · Silver Screen · Q&A",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1837601/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Sense and Sensibility (2026)",
+      "date": "2026-10-21",
+      "time": "13:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875402/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Lost Children of Tuam",
+      "date": "2026-10-21",
+      "time": "14:40",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876811/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Case 137",
+      "date": "2026-10-21",
+      "time": "15:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Tenzing",
+      "date": "2026-10-21",
+      "time": "15:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1877602/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-21",
+      "time": "15:50",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1870806/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Social Reckoning",
+      "date": "2026-10-21",
+      "time": "17:00",
+      "notes": "Screen not supplied by feed · Captioned for hard of hearing",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878402/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-21",
+      "time": "17:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1870802/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "These Violent Delights",
+      "date": "2026-10-21",
+      "time": "18:00",
+      "notes": "Screen not supplied by feed · Q&A",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1829801/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-21",
+      "time": "18:10",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875207/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Thing [2026]",
+      "date": "2026-10-21",
+      "time": "19:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1857401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Boorman and the Devil",
+      "date": "2026-10-21",
+      "time": "20:10",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1835001/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Digger",
+      "date": "2026-10-21",
+      "time": "20:15",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875003/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "date": "2026-10-21",
+      "time": "20:30",
+      "notes": "Screen not supplied by feed · 35mm",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876602/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Comédie Française",
+      "date": "2026-10-22",
+      "time": "11:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875801/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Uprising",
+      "date": "2026-10-22",
+      "time": "11:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878803/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-22",
+      "time": "11:50",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876805/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Pressure",
+      "date": "2026-10-22",
+      "time": "12:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876404/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Lost Children of Tuam",
+      "date": "2026-10-22",
+      "time": "13:10",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1877804/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "De Gaulle: Liberté",
+      "date": "2026-10-22",
+      "time": "14:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1879401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Social Reckoning",
+      "date": "2026-10-22",
+      "time": "14:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878403/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Digger",
+      "date": "2026-10-22",
+      "time": "15:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876004/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Sense and Sensibility (2026)",
+      "date": "2026-10-22",
+      "time": "15:15",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875403/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Case 137",
+      "date": "2026-10-22",
+      "time": "17:10",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875601/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Bad Apples",
+      "date": "2026-10-22",
+      "time": "17:40",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875001/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Extra Geography",
+      "date": "2026-10-22",
+      "time": "18:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876402/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-22",
+      "time": "18:10",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876803/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Fallen Angels by Noël Coward",
+      "date": "2026-10-22",
+      "time": "19:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1786603/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Social Reckoning",
+      "date": "2026-10-22",
+      "time": "20:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878202/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Tenzing",
+      "date": "2026-10-22",
+      "time": "20:15",
+      "notes": "Screen not supplied by feed · Captioned for hard of hearing",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876809/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "date": "2026-10-22",
+      "time": "20:20",
+      "notes": "Screen not supplied by feed · 35mm",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1874001/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Ghosts: The Possession of Button House",
+      "date": "2026-10-23",
+      "time": "13:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1873001/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Wildwood",
+      "date": "2026-10-23",
+      "time": "15:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1872001/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-23",
+      "time": "17:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1883201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Wildwood",
+      "date": "2026-10-23",
+      "time": "17:30",
+      "notes": "Screen not supplied by feed · Captioned for hard of hearing",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1872201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Ghosts: The Possession of Button House",
+      "date": "2026-10-23",
+      "time": "18:10",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1873002/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Canvas & Cocktails + The Rocky Horror Picture Show Interactive Screening [2026]",
+      "date": "2026-10-23",
+      "time": "18:15",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1863601/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Interactive Screening: The Rocky Horror Picture Show [2026]",
+      "date": "2026-10-23",
+      "time": "19:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1863401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Teenage Sex and Death at Camp Miasma",
+      "date": "2026-10-23",
+      "time": "20:30",
+      "notes": "Screen not supplied by feed · 35mm",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1882401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Wildwood",
+      "date": "2026-10-24",
+      "time": "12:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1872002/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Ghosts: The Possession of Button House",
+      "date": "2026-10-24",
+      "time": "13:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1873003/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-24",
+      "time": "15:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1883401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-24",
+      "time": "15:40",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1870803/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Ghosts: The Possession of Button House",
+      "date": "2026-10-24",
+      "time": "15:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1882602/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Wildwood",
+      "date": "2026-10-24",
+      "time": "17:50",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1872003/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Ghosts: The Possession of Button House",
+      "date": "2026-10-24",
+      "time": "18:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1872802/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Sweeney Todd: The Demon Barber of Fleet Street",
+      "date": "2026-10-24",
+      "time": "21:00",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1690401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Audition",
+      "date": "2026-10-24",
+      "time": "21:15",
+      "notes": "Screen not supplied by feed · 35mm",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1691401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Summerisle",
+      "date": "2026-10-24",
+      "time": "21:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1689601/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "She Killed in Ecstasy",
+      "date": "2026-10-24",
+      "time": "21:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1692201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "She Killed in Ecstasy",
+      "date": "2026-10-24",
+      "time": "21:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1692202/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Evil Ed",
+      "date": "2026-10-24",
+      "time": "23:40",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1691002/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Evil Ed",
+      "date": "2026-10-24",
+      "time": "23:40",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1692401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Little Shop of Horrors: Director's Cut",
+      "date": "2026-10-24",
+      "time": "23:40",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1690601/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Cabrini Green",
+      "date": "2026-10-24",
+      "time": "23:50",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1689801/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Blood and Black Lace [2026]",
+      "date": "2026-10-24",
+      "time": "23:55",
+      "notes": "Screen not supplied by feed · 35mm",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1691202/"
+    }
+  ]
+}

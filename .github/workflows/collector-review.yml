@@ -33,3 +33,4 @@ jobs:
           path: work/alnwick-candidate.json
           if-no-files-found: error
           retention-days: 7
+

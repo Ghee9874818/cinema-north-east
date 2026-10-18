@@ -1,0 +1,1892 @@
+{
+  "schemaVersion": 1,
+  "status": "needs_review",
+  "cinema": "Vue Cramlington",
+  "collectionMode": "live-public-source",
+  "collectedAt": "2026-10-18T11:05:25.980238+00:00",
+  "updateMode": "review-candidate-only",
+  "sources": [
+    {
+      "url": "https://www.myvue.com/api/microservice/showings/cinemas/10085/films?showingDate=2026-10-18&includesSession=true&includeSessionAttributes=true",
+      "sha256": "f33a0cec8c9a714a5a8c884e31fcc59487be2d842809014ebf78885eef1cb3ad"
+    },
+    {
+      "url": "https://www.myvue.com/api/microservice/showings/cinemas/10085/films?showingDate=2026-10-19&includesSession=true&includeSessionAttributes=true",
+      "sha256": "9d12e52f96cecc4dc0c14259954411623e19e8bf14dacff2ef45a4986e20da62"
+    },
+    {
+      "url": "https://www.myvue.com/api/microservice/showings/cinemas/10085/films?showingDate=2026-10-20&includesSession=true&includeSessionAttributes=true",
+      "sha256": "e7c748592a14210732f739c6efd2353352ff3c373cc502d401015608e6f12570"
+    },
+    {
+      "url": "https://www.myvue.com/api/microservice/showings/cinemas/10085/films?showingDate=2026-10-21&includesSession=true&includeSessionAttributes=true",
+      "sha256": "bfad18094218e562bf12cf1df5530464b3d48daeaaf70a95ef437af984a3ddba"
+    },
+    {
+      "url": "https://www.myvue.com/api/microservice/showings/cinemas/10085/films?showingDate=2026-10-22&includesSession=true&includeSessionAttributes=true",
+      "sha256": "6433a1d553631319c38a12c0fac6c3a50de4dfdade032bc0a834e07b71ee9140"
+    },
+    {
+      "url": "https://www.myvue.com/api/microservice/showings/cinemas/10085/films?showingDate=2026-10-23&includesSession=true&includeSessionAttributes=true",
+      "sha256": "cc3fddc0d6200891dbaaec77f16cc2f04e2b3eae6f9ac6c3245b817fb6a158a4"
+    },
+    {
+      "url": "https://www.myvue.com/api/microservice/showings/cinemas/10085/films?showingDate=2026-10-24&includesSession=true&includeSessionAttributes=true",
+      "sha256": "216a88c8a9da31a5c65fda82df1914106a58635b7b2f597c43407fce5f1503f6"
+    }
+  ],
+  "coverage": {
+    "from": "2026-10-18",
+    "through": "2026-10-24"
+  },
+  "screenings": [
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-18",
+      "time": "12:15",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/227862"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-18",
+      "time": "12:40",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/227897"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Resident Evil",
+      "date": "2026-10-18",
+      "time": "12:55",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020943/227972"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-18",
+      "time": "13:10",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/227989"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-18",
+      "time": "13:25",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/227909"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-18",
+      "time": "13:40",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/227015"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-18",
+      "time": "14:00",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021433/224492"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-18",
+      "time": "14:15",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/227926"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "date": "2026-10-18",
+      "time": "14:30",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021297/227956"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-18",
+      "time": "14:45",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/227863"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-18",
+      "time": "15:05",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/227973"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-18",
+      "time": "15:20",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/227898"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-18",
+      "time": "15:35",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/227990"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-18",
+      "time": "16:00",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/227910"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-18",
+      "time": "16:20",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/227415"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-18",
+      "time": "16:35",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/227957"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-18",
+      "time": "17:00",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/227881"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-18",
+      "time": "17:10",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/227927"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-18",
+      "time": "17:25",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/227864"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-18",
+      "time": "17:40",
+      "notes": "Screen 8 · English · Audio Description (AD) · Open Captioned · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/227974"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Harry Potter and the Deathly Hallows: Part 2 (2011)",
+      "date": "2026-10-18",
+      "time": "18:00",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021394/224495"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-18",
+      "time": "18:15",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/227991"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-18",
+      "time": "18:30",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/227911"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-18",
+      "time": "18:50",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/227942"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "The Uprising",
+      "date": "2026-10-18",
+      "time": "19:15",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021351/227958"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-18",
+      "time": "19:30",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/227882"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-18",
+      "time": "19:45",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/227414"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-18",
+      "time": "20:05",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/227865"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Resident Evil",
+      "date": "2026-10-18",
+      "time": "20:20",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020943/227975"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-18",
+      "time": "20:30",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/227992"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-18",
+      "time": "21:00",
+      "notes": "Screen 3 · English · Audio Description (AD) · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021433/227912"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-18",
+      "time": "21:15",
+      "notes": "Screen 4 · English · Audio Description (AD)",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/227866"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-18",
+      "time": "21:40",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/227943"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Insidious: Out of the Further",
+      "date": "2026-10-18",
+      "time": "22:00",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021241/227883"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Resident Evil",
+      "date": "2026-10-18",
+      "time": "22:05",
+      "notes": "Screen 7 · English · Audio Description (AD)",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020943/227928"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-19",
+      "time": "10:00",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228021"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "We're Going on a Bear Hunt + The Tiger Who Came to Tea",
+      "date": "2026-10-19",
+      "time": "10:00",
+      "notes": "Screen 2 · English · Single Seat · Big Shorts",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021468/228042"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-19",
+      "time": "10:10",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228162"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "date": "2026-10-19",
+      "time": "10:10",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021297/228062"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-19",
+      "time": "10:25",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228183"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-19",
+      "time": "10:25",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228102"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Kiri and Lou Go Raaa!",
+      "date": "2026-10-19",
+      "time": "10:40",
+      "notes": "Screen 4 · English · Single Seat · Big Shorts",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021514/228082"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Pressure",
+      "date": "2026-10-19",
+      "time": "10:55",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021402/228141"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-19",
+      "time": "11:10",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228123"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-19",
+      "time": "11:35",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228043"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-19",
+      "time": "12:10",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228063"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "date": "2026-10-19",
+      "time": "12:15",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021297/228083"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-19",
+      "time": "12:25",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228022"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "The Uprising",
+      "date": "2026-10-19",
+      "time": "12:35",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021351/228163"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Tad and the Magic Lamp",
+      "date": "2026-10-19",
+      "time": "12:50",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021246/228103"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-19",
+      "time": "13:00",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228184"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-19",
+      "time": "13:15",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228142"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-19",
+      "time": "13:45",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228124"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-19",
+      "time": "14:00",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228044"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-19",
+      "time": "14:15",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021433/228084"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-19",
+      "time": "14:30",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228064"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-19",
+      "time": "14:50",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228023"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-19",
+      "time": "15:05",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228104"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Practical Magic 2",
+      "date": "2026-10-19",
+      "time": "15:20",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021183/228164"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-19",
+      "time": "15:35",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228185"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-19",
+      "time": "15:50",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228143"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-19",
+      "time": "16:10",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228125"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-19",
+      "time": "16:25",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228045"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-19",
+      "time": "17:05",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228065"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-19",
+      "time": "17:15",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228024"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-19",
+      "time": "17:25",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228085"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Resident Evil",
+      "date": "2026-10-19",
+      "time": "17:40",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020943/228105"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-19",
+      "time": "18:05",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228144"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-19",
+      "time": "18:10",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228165"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-19",
+      "time": "18:15",
+      "notes": "Screen 7 · English · Autism Friendly · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228186"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-19",
+      "time": "18:45",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228126"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-19",
+      "time": "19:00",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228046"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-19",
+      "time": "19:15",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228066"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-19",
+      "time": "19:40",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228025"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Mystery Horror Film (19 October 2026)",
+      "date": "2026-10-19",
+      "time": "20:00",
+      "notes": "Screen 4 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021603/228086"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-19",
+      "time": "20:25",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228145"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-19",
+      "time": "20:40",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228187"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "The Uprising",
+      "date": "2026-10-19",
+      "time": "20:50",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021351/228166"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-19",
+      "time": "21:10",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228127"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-20",
+      "time": "10:00",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228016"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Kiri and Lou Go Raaa!",
+      "date": "2026-10-20",
+      "time": "10:15",
+      "notes": "Screen 7 · English · Single Seat · Big Shorts",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021514/228136"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "We're Going on a Bear Hunt + The Tiger Who Came to Tea",
+      "date": "2026-10-20",
+      "time": "10:15",
+      "notes": "Screen 3 · English · Single Seat · Big Shorts",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021468/228058"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Tad and the Magic Lamp",
+      "date": "2026-10-20",
+      "time": "10:25",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021246/228118"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "date": "2026-10-20",
+      "time": "10:30",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021297/228097"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-20",
+      "time": "10:40",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021433/228078"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-20",
+      "time": "10:45",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228178"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-20",
+      "time": "11:05",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228037"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-20",
+      "time": "11:25",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228157"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-20",
+      "time": "11:50",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228059"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Pressure",
+      "date": "2026-10-20",
+      "time": "12:10",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021402/228137"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-20",
+      "time": "12:25",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228017"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-20",
+      "time": "12:40",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021433/228098"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-20",
+      "time": "12:50",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228119"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-20",
+      "time": "13:05",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228179"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-20",
+      "time": "13:30",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228038"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "The Uprising",
+      "date": "2026-10-20",
+      "time": "13:45",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021351/228079"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-20",
+      "time": "14:00",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228158"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-20",
+      "time": "14:15",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228060"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-20",
+      "time": "14:30",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228138"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-20",
+      "time": "14:55",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228018"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-20",
+      "time": "15:10",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228120"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-20",
+      "time": "15:40",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228180"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-20",
+      "time": "15:50",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228099"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-20",
+      "time": "16:05",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228039"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-20",
+      "time": "16:25",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228159"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-20",
+      "time": "16:40",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228061"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-20",
+      "time": "17:00",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228080"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Resident Evil",
+      "date": "2026-10-20",
+      "time": "17:05",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020943/228139"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-20",
+      "time": "17:20",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228019"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-20",
+      "time": "17:45",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228121"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-20",
+      "time": "18:00",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228181"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-20",
+      "time": "18:15",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228100"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-20",
+      "time": "18:35",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228040"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-20",
+      "time": "19:00",
+      "notes": "Screen 8 · English · Audio Description (AD) · Open Captioned · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228160"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Harry Potter and the Deathly Hallows: Part 2 (2011)",
+      "date": "2026-10-20",
+      "time": "19:15",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021394/224494"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-20",
+      "time": "19:15",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228140"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-20",
+      "time": "19:35",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228081"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-20",
+      "time": "19:50",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228020"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-20",
+      "time": "20:05",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021433/228122"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-20",
+      "time": "20:20",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228182"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-20",
+      "time": "20:45",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228101"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-20",
+      "time": "21:05",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228041"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Resident Evil",
+      "date": "2026-10-20",
+      "time": "21:40",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020943/228161"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-21",
+      "time": "10:00",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228011"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "We're Going on a Bear Hunt + The Tiger Who Came to Tea",
+      "date": "2026-10-21",
+      "time": "10:00",
+      "notes": "Screen 2 · English · Single Seat · Big Shorts",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021468/228031"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "date": "2026-10-21",
+      "time": "10:10",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021297/228132"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Kiri and Lou Go Raaa!",
+      "date": "2026-10-21",
+      "time": "10:15",
+      "notes": "Screen 8 · English · Single Seat · Big Shorts",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021514/228151"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-21",
+      "time": "10:25",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228173"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-21",
+      "time": "10:40",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228053"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Tad and the Magic Lamp",
+      "date": "2026-10-21",
+      "time": "10:50",
+      "notes": "Screen 5 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021246/228092"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-21",
+      "time": "10:55",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228073"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-21",
+      "time": "11:10",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228113"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-21",
+      "time": "11:35",
+      "notes": "Screen 2 · English · Audio Description (AD) · Open Captioned · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228032"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Practical Magic 2",
+      "date": "2026-10-21",
+      "time": "11:50",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021183/228152"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-21",
+      "time": "12:10",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228133"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-21",
+      "time": "12:25",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228012"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-21",
+      "time": "12:45",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228174"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-21",
+      "time": "13:00",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228093"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-21",
+      "time": "13:15",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228054"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-21",
+      "time": "13:35",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228114"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "The Uprising",
+      "date": "2026-10-21",
+      "time": "13:45",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021351/228074"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-21",
+      "time": "14:00",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228033"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-21",
+      "time": "14:20",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021433/228134"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-21",
+      "time": "14:35",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228153"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-21",
+      "time": "14:50",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228013"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-21",
+      "time": "15:05",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228175"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-21",
+      "time": "15:40",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228055"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Pressure",
+      "date": "2026-10-21",
+      "time": "15:55",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021402/228094"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-21",
+      "time": "16:10",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228115"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-21",
+      "time": "16:25",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228034"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-21",
+      "time": "16:40",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228075"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-21",
+      "time": "17:00",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228154"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Resident Evil",
+      "date": "2026-10-21",
+      "time": "17:20",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020943/228135"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-21",
+      "time": "17:20",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228014"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-21",
+      "time": "17:40",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228176"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-21",
+      "time": "18:15",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228095"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-21",
+      "time": "18:30",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228056"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-21",
+      "time": "18:45",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228116"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-21",
+      "time": "19:00",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228035"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-21",
+      "time": "19:05",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228076"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-21",
+      "time": "19:15",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228155"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-21",
+      "time": "19:30",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021433/226350"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-21",
+      "time": "19:55",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228015"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-21",
+      "time": "20:00",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228177"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-21",
+      "time": "20:40",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228057"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-21",
+      "time": "20:45",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228096"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-21",
+      "time": "21:15",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228117"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-21",
+      "time": "21:25",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228077"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-21",
+      "time": "21:40",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228036"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Resident Evil",
+      "date": "2026-10-21",
+      "time": "21:45",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020943/228156"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Tad and the Magic Lamp",
+      "date": "2026-10-22",
+      "time": "10:00",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021246/228005"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "We're Going on a Bear Hunt + The Tiger Who Came to Tea",
+      "date": "2026-10-22",
+      "time": "10:00",
+      "notes": "Screen 6 · English · Single Seat · Big Shorts",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021468/228107"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-22",
+      "time": "10:10",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228048"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-22",
+      "time": "10:15",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228167"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-22",
+      "time": "10:25",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228027"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-22",
+      "time": "10:40",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228146"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Kiri and Lou Go Raaa!",
+      "date": "2026-10-22",
+      "time": "10:50",
+      "notes": "Screen 4 · English · Single Seat · Big Shorts",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021514/228068"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Pressure",
+      "date": "2026-10-22",
+      "time": "11:05",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021402/228087"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-22",
+      "time": "11:20",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228128"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-22",
+      "time": "11:40",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228108"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-22",
+      "time": "12:10",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228006"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Practical Magic 2",
+      "date": "2026-10-22",
+      "time": "12:25",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021183/228069"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-22",
+      "time": "12:35",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228168"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-22",
+      "time": "12:50",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228049"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-22",
+      "time": "13:05",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228147"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Tad and the Magic Lamp",
+      "date": "2026-10-22",
+      "time": "13:20",
+      "notes": "Screen 5 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021246/228088"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-22",
+      "time": "13:40",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228028"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-22",
+      "time": "13:55",
+      "notes": "Screen 7 · English · Single Seat · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021433/228129"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-22",
+      "time": "14:15",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228109"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-22",
+      "time": "14:35",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228007"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-22",
+      "time": "14:55",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228169"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-22",
+      "time": "15:15",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228050"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "The Uprising",
+      "date": "2026-10-22",
+      "time": "15:20",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021351/228070"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-22",
+      "time": "15:30",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228089"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "date": "2026-10-22",
+      "time": "15:40",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021297/228148"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-22",
+      "time": "16:05",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228029"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Resident Evil",
+      "date": "2026-10-22",
+      "time": "16:35",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020943/228110"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-22",
+      "time": "17:00",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228008"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-22",
+      "time": "17:15",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228130"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-22",
+      "time": "17:30",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228170"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-22",
+      "time": "17:40",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228149"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-22",
+      "time": "17:50",
+      "notes": "Screen 3 · English · Audio Description (AD) · Open Captioned · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228051"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-22",
+      "time": "18:05",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228090"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-22",
+      "time": "18:20",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228071"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-22",
+      "time": "18:45",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228111"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Fallen Angels by Noël Coward",
+      "date": "2026-10-22",
+      "time": "19:00",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021419/224476"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-22",
+      "time": "19:25",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228009"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-22",
+      "time": "19:40",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228171"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Heart of the Beast",
+      "date": "2026-10-22",
+      "time": "19:50",
+      "notes": "Screen 7 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021289/228131"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Verity",
+      "date": "2026-10-22",
+      "time": "20:00",
+      "notes": "Screen 8 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021230/228150"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Hadestown: The Musical",
+      "date": "2026-10-22",
+      "time": "20:15",
+      "notes": "Screen 3 · English · Audio Description (AD) · Single Seat · Event",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021433/228052"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-22",
+      "time": "20:30",
+      "notes": "Screen 5 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228091"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "The Others (25th Anniversary)",
+      "date": "2026-10-22",
+      "time": "20:30",
+      "notes": "Screen 4 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021564/228072"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Whalefall",
+      "date": "2026-10-22",
+      "time": "21:20",
+      "notes": "Screen 6 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021296/228112"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Street Fighter",
+      "date": "2026-10-22",
+      "time": "21:25",
+      "notes": "Screen 2 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020947/228030"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Other Mommy",
+      "date": "2026-10-22",
+      "time": "21:50",
+      "notes": "Screen 1 · English · Dolby Atmos · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021406/228010"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Resident Evil",
+      "date": "2026-10-22",
+      "time": "21:50",
+      "notes": "Screen 9 · English · Audio Description (AD) · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020943/228172"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-23",
+      "time": "13:00",
+      "notes": "Screen 5 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/227810"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Wildwood",
+      "date": "2026-10-23",
+      "time": "14:30",
+      "notes": "Screen 3 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021405/227394"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Wildwood",
+      "date": "2026-10-23",
+      "time": "17:30",
+      "notes": "Screen 3 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021405/227395"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Ghosts: The Possession of Button House",
+      "date": "2026-10-23",
+      "time": "19:00",
+      "notes": "Screen 8 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021244/227813"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Clayface",
+      "date": "2026-10-23",
+      "time": "20:00",
+      "notes": "Screen 6 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020288/227807"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Ali G: Who Iz I?",
+      "date": "2026-10-23",
+      "time": "20:30",
+      "notes": "Screen 3 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021471/227852"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Clayface",
+      "date": "2026-10-23",
+      "time": "22:40",
+      "notes": "Screen 6 · English · Single Seat · Over 18s",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020288/228201"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Forgotten Island",
+      "date": "2026-10-24",
+      "time": "13:00",
+      "notes": "Screen 7 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020945/228207"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Wildwood",
+      "date": "2026-10-24",
+      "time": "14:30",
+      "notes": "Screen 3 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021405/227850"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Wildwood",
+      "date": "2026-10-24",
+      "time": "17:30",
+      "notes": "Screen 3 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021405/228200"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Ali G: Who Iz I?",
+      "date": "2026-10-24",
+      "time": "18:00",
+      "notes": "Screen 5 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021471/227856"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Ghosts: The Possession of Button House",
+      "date": "2026-10-24",
+      "time": "18:00",
+      "notes": "Screen 6 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00021244/227805"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Clayface",
+      "date": "2026-10-24",
+      "time": "20:30",
+      "notes": "Screen 6 · English · Single Seat",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020288/227806"
+    },
+    {
+      "cinema": "Vue Cramlington",
+      "title": "Clayface",
+      "date": "2026-10-24",
+      "time": "22:30",
+      "notes": "Screen 8 · English · Single Seat · Over 18s",
+      "bookingUrl": "https://www.myvue.com/book-tickets/summary/10085/HO00020288/228211"
+    }
+  ]
+}

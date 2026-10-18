@@ -75,3 +75,4 @@ class CollectorTests(unittest.TestCase):
         self.assertEqual(week[-1],'2027-01-04')
 
 if __name__=='__main__':unittest.main()
+

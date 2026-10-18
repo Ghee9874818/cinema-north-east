@@ -1,7 +1,7 @@
-Cinema North East beta
+# Data status
 
-The site contains a dated Alnwick Playhouse snapshot from 17 October 2026. This is not live availability. Other venues link to their official listings.
+screenings.json retains the historical Alnwick Playhouse snapshot from 17 October 2026. It is not live availability. Other venues link to their official listings.
 
-The scheduled diagnostic in update.py checks page accessibility only; it does not update screenings.json. Do not interpret a successful diagnostic as verified screening data.
+The collector scripts create review candidates. The test workflows do not replace screenings.json or deploy the site. Cached fixture candidates are test inputs, not approved live listings.
 
-Before deploying publicly, confirm that the historical listings are clearly labelled, and validate cinema data permissions.
+See INTEGRATION_REVIEW.md for current verification, supported venues and remaining publication checks.

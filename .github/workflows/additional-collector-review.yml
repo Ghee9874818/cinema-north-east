@@ -1,0 +1,77 @@
+name: Additional cinema collector review
+on:
+  push:
+    branches:
+      - test/alnwick-api-collector
+    paths:
+      - 'collect_additional.py'
+      - 'update.py'
+      - 'build_feed.py'
+      - 'additional_tests/**'
+      - 'tests/**'
+      - '.github/workflows/additional-collector-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: additional-review-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  tests:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Test all collectors and feed integration
+        run: |
+          python -m unittest discover -s tests -v
+          python -m unittest discover -s additional_tests -v
+  collect:
+    needs: tests
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        venue: [vue, tyneside, everyman]
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Record site files
+        run: sha256sum index.html screenings.json > /tmp/website-files.sha256
+      - name: Collect fresh official candidate
+        run: python collect_additional.py '${{ matrix.venue }}' --output 'review/${{ matrix.venue }}-candidate.json'
+      - name: Validate candidate integration without writing live feed
+        env:
+          VENUE: ${{ matrix.venue }}
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          from build_feed import merge_candidate
+          candidate=json.loads(Path('review',os.environ['VENUE']+'-candidate.json').read_text())
+          merged=merge_candidate({'schemaVersion':1,'screenings':[]},candidate)
+          print(f"Validated {len(merged['screenings'])} screenings. No live files written.")
+          PY
+      - name: Confirm site unchanged
+        if: always()
+        run: sha256sum --check /tmp/website-files.sha256
+      - name: Retain successful review candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ matrix.venue }}-review-${{ github.run_id }}-${{ github.run_attempt }}
+          path: review/
+          if-no-files-found: error
+          retention-days: 14
+      - name: Explain failure
+        if: failure()
+        run: echo 'Collection or validation failed. No live listings were changed; inspect the failed step.' >> "$GITHUB_STEP_SUMMARY"
