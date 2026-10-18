@@ -1,0 +1,182 @@
+name: Daily cinema refresh and publication
+on:
+  # Add the documented 08:17 Europe/London schedule only after the first verified deployment.
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/daily-refresh.yml
+permissions:
+  contents: read
+concurrency:
+  group: cinema-refresh-and-pages
+  cancel-in-progress: false
+jobs:
+  refresh:
+    if: github.repository == 'Ghee9874818/cinema-north-east' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    outputs:
+      commit: ${{ steps.commit.outputs.sha }}
+      failed: ${{ steps.report.outputs.failed }}
+      index_hash: ${{ steps.package.outputs.index_hash }}
+      feed_hash: ${{ steps.package.outputs.feed_hash }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.12'
+      - name: Test collectors and fail-safe refresh
+        run: |
+          python -m unittest discover -s tests -v
+          python -m unittest discover -s additional_tests -v
+      - name: Refresh independent official sources
+        run: python refresh_feed.py --report "$RUNNER_TEMP/refresh-report.json"
+      - name: Record collection health
+        id: report
+        run: |
+          python - <<'PY'
+          import json, os
+          from pathlib import Path
+          report = json.loads((Path(os.environ['RUNNER_TEMP']) / 'refresh-report.json').read_text())
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as output:
+              output.write(f"failed={report['failedVenues']}\n")
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as summary:
+              summary.write('## Collection results\n\n')
+              for venue in report['venues']:
+                  if venue['status'] == 'collected':
+                      summary.write(f"- {venue['venue']}: {venue['screenings']} fresh screenings.\n")
+                  else:
+                      summary.write(f"- {venue['venue']}: collection unavailable; {venue['retainedScreenings']} last-good screenings retained. See run log.\n")
+              summary.write('\nVue, ODEON and Cineworld are not attempted by this refresh. Their existing status is retained.\n')
+          PY
+      - name: Commit only the validated feed without overwriting other changes
+        id: commit
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git diff --exit-code -- . ':!screenings.json'
+          git add -- screenings.json
+          if ! git diff --cached --quiet; then
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'Refresh official cinema screenings'
+            # Header exists only in this command's environment; no token is saved in git config.
+            auth="$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)"
+            GIT_CONFIG_COUNT=1 \
+              GIT_CONFIG_KEY_0='http.https://github.com/.extraheader' \
+              GIT_CONFIG_VALUE_0="AUTHORIZATION: basic $auth" \
+              git push origin HEAD:refs/heads/main
+          fi
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Package only the two public website files
+        id: package
+        run: |
+          mkdir "$RUNNER_TEMP/cinema-site"
+          cp index.html screenings.json "$RUNNER_TEMP/cinema-site/"
+          test "$(find "$RUNNER_TEMP/cinema-site" -type f | wc -l)" -eq 2
+          echo "index_hash=$(sha256sum index.html | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+          echo "feed_hash=$(sha256sum screenings.json | cut -d' ' -f1)" >> "$GITHUB_OUTPUT"
+      - name: Upload minimal Pages artifact
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
+        with:
+          path: ${{ runner.temp }}/cinema-site
+      - name: Retain collection diagnostics separately from the website
+        if: always()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: refresh-report-${{ github.run_id }}-${{ github.run_attempt }}
+          path: ${{ runner.temp }}/refresh-report.json
+          if-no-files-found: warn
+          retention-days: 14
+  deploy:
+    needs: refresh
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    permissions:
+      contents: read
+      actions: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Wait for earlier legacy Pages builds to finish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python - <<'PY_GATE'
+          import json, os, subprocess, time
+          deadline = time.monotonic() + 300
+          while True:
+              result = subprocess.run(
+                  ['gh', 'api', '--paginate', '--slurp',
+                   f"repos/{os.environ['GITHUB_REPOSITORY']}/actions/runs?per_page=100"],
+                  capture_output=True, text=True, check=True, timeout=45)
+              runs = [run for page in json.loads(result.stdout) for run in page['workflow_runs']
+                      if run['name'] == 'pages build and deployment']
+              trigger = [run for run in runs if run['head_sha'] == os.environ['GITHUB_SHA']]
+              registered = os.environ['GITHUB_EVENT_NAME'] != 'push' or bool(trigger)
+              active = [run for run in runs if run['status'] != 'completed']
+              if registered and not active:
+                  print('Earlier legacy Pages builds are terminal; custom artifact can deploy safely.')
+                  break
+              if time.monotonic() >= deadline:
+                  raise SystemExit('Legacy Pages build is pending or not yet registered. Stop to avoid an older build overwriting this artifact; inspect and rerun.')
+              time.sleep(15)
+          PY_GATE
+      - name: Refuse to deploy a feed superseded by another main-branch change
+        env:
+          GH_TOKEN: ${{ github.token }}
+          EXPECTED_COMMIT: ${{ needs.refresh.outputs.commit }}
+        run: |
+          current="$(gh api "repos/$GITHUB_REPOSITORY/git/ref/heads/main" --jq '.object.sha')"
+          test "$current" = "$EXPECTED_COMMIT" || { echo 'Main changed; rerun the refresh against current main.'; exit 1; }
+      - name: Deploy this run's Pages artifact explicitly
+        id: deployment
+        uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
+      - name: Verify the published bytes
+        env:
+          SITE_URL: ${{ steps.deployment.outputs.page_url }}
+          INDEX_HASH: ${{ needs.refresh.outputs.index_hash }}
+          FEED_HASH: ${{ needs.refresh.outputs.feed_hash }}
+          PUBLISHED_COMMIT: ${{ needs.refresh.outputs.commit }}
+        run: |
+          python - <<'PY'
+          import hashlib, os, time, urllib.request
+          from urllib.parse import urlsplit
+          base = os.environ['SITE_URL'].rstrip('/') + '/'
+          parsed = urlsplit(base)
+          if parsed.scheme != 'https' or parsed.hostname != 'ghee9874818.github.io':
+              raise SystemExit('Unexpected Pages URL; inspect the deployment before verification.')
+          expected = {'index.html': os.environ['INDEX_HASH'], 'screenings.json': os.environ['FEED_HASH']}
+          deadline = time.monotonic() + 300
+          while True:
+              matches = []
+              for name, digest in expected.items():
+                  request = urllib.request.Request(base + name + '?refresh=' + os.environ['PUBLISHED_COMMIT'], headers={'Cache-Control': 'no-cache'})
+                  try:
+                      with urllib.request.urlopen(request, timeout=20) as response:
+                          body = response.read(5_000_001)
+                      matches.append(hashlib.sha256(body).hexdigest() == digest)
+                  except OSError:
+                      matches.append(False)
+              if all(matches):
+                  print('Live index.html and screenings.json exactly match the published artifact.')
+                  break
+              if time.monotonic() >= deadline:
+                  raise SystemExit('Deployment returned success, but public bytes did not match within five minutes. Inspect Pages before declaring success.')
+              time.sleep(15)
+          PY
+      - name: Surface a degraded collection after publishing retained data and honest statuses
+        if: needs.refresh.outputs.failed != '0'
+        env:
+          FAILED: ${{ needs.refresh.outputs.failed }}
+        run: |
+          echo "::error::$FAILED cinema source(s) failed. Last-good listings and failure statuses were published safely; inspect the refresh report."
+          exit 1

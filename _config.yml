@@ -1,0 +1,19 @@
+# Keep source code, fixtures and review documents out of legacy branch-based Pages builds too.
+# The daily workflow separately uploads only index.html and screenings.json.
+exclude:
+  - tests
+  - additional_tests
+  - work
+  - review
+  - __pycache__
+  - update.py
+  - build_feed.py
+  - collect_spektrix.py
+  - collect_additional.py
+  - refresh_feed.py
+  - README.md
+  - DATA_STATUS.md
+  - COLLECTOR_REVIEW.md
+  - ADDITIONAL_CINEMAS.md
+  - INTEGRATION_REVIEW.md
+  - REFRESH_OPERATIONS.md
