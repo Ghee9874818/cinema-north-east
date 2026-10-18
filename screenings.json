@@ -1738,12 +1738,12 @@
       "bookingUrl": "https://tynesidecinema.co.uk/book-online/1691202/"
     }
   ],
-  "updateMode": "official-source collected snapshot; no automatic publication schedule",
+  "updateMode": "automatic official-source collection; see per-cinema status",
   "warning": "Coverage varies by cinema. Times can change; confirm with the official cinema.",
   "venueStatus": {
     "Alnwick Playhouse": {
       "status": "collected",
-      "collectedAt": "2026-10-18T15:38:42.953583+00:00",
+      "collectedAt": "2026-10-18T15:54:41.085391+00:00",
       "coverage": {
         "from": "2026-10-18",
         "through": "2026-10-24"
@@ -1763,7 +1763,7 @@
     },
     "Tyneside Cinema": {
       "status": "collected",
-      "collectedAt": "2026-10-18T15:38:50.671201+00:00",
+      "collectedAt": "2026-10-18T15:54:42.154049+00:00",
       "coverage": {
         "from": "2026-10-18",
         "through": "2026-10-24"
@@ -1776,14 +1776,14 @@
         },
         {
           "url": "https://system.spektrix.com/tynesidecinema/api/v3/instances?startFrom=2026-10-18&startTo=2026-10-25",
-          "sha256": "66a2565a703389bb26c247e12acda94ddf183ec9e6e6a44173cb42496fba79f5"
+          "sha256": "995b488955568278398c9fe453857f81ff7a99259e99c414a84d81896ae8bf24"
         }
       ],
       "collectionMode": "live-public-source"
     },
     "Everyman Newcastle": {
       "status": "collected",
-      "collectedAt": "2026-10-18T15:38:50.216203+00:00",
+      "collectedAt": "2026-10-18T15:54:44.232045+00:00",
       "coverage": {
         "from": "2026-10-18",
         "through": "2026-10-24"
@@ -1819,5 +1819,5 @@
       "error": "Official automated source unavailable; no verified programme"
     }
   },
-  "generatedAt": "2026-10-18T15:41:06+00:00"
+  "generatedAt": "2026-10-18T15:54:46.525431+00:00"
 }
