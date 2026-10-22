@@ -234,22 +234,6 @@
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/ae86758a-2130-5627-8906-4ee089c0d613"
     },
     {
-      "cinema": "Alnwick Playhouse",
-      "title": "Sense & Sensibility- Silver Screen",
-      "date": "2026-10-21",
-      "time": "10:30",
-      "notes": "Screen 2 Subtitled",
-      "bookingUrl": "https://www.alnwickplayhouse.co.uk/spektrix/ChooseSeats?EventInstanceId=932378AKPJVCNSDBSSHTHJKCPCLLPMVPV"
-    },
-    {
-      "cinema": "Tyneside Cinema",
-      "title": "Shadows of Beirut",
-      "date": "2026-10-21",
-      "time": "11:00",
-      "notes": "Screen not supplied by feed · Silver Screen · Q&A",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1837601/"
-    },
-    {
       "cinema": "Everyman Newcastle",
       "title": "Forgotten Island",
       "date": "2026-10-21",
@@ -274,22 +258,6 @@
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/c0a43714-b470-5e87-bde9-78b36fcfa340"
     },
     {
-      "cinema": "Tyneside Cinema",
-      "title": "Sense and Sensibility (2026)",
-      "date": "2026-10-21",
-      "time": "13:00",
-      "notes": "Screen not supplied by feed",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875402/"
-    },
-    {
-      "cinema": "Alnwick Playhouse",
-      "title": "Heart of the Beast",
-      "date": "2026-10-21",
-      "time": "13:15",
-      "notes": "Screen 2",
-      "bookingUrl": "https://www.alnwickplayhouse.co.uk/spektrix/ChooseSeats?EventInstanceId=935378AQQQVGMBMGRHMHGTRTQGRGLMMMM"
-    },
-    {
       "cinema": "Everyman Newcastle",
       "title": "Street Fighter",
       "date": "2026-10-21",
@@ -306,36 +274,12 @@
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/97b8cd68-0252-52cf-9a06-3479fd7158ae"
     },
     {
-      "cinema": "Tyneside Cinema",
-      "title": "The Lost Children of Tuam",
-      "date": "2026-10-21",
-      "time": "14:40",
-      "notes": "Screen not supplied by feed",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876811/"
-    },
-    {
       "cinema": "Everyman Newcastle",
       "title": "The Social Reckoning",
       "date": "2026-10-21",
       "time": "15:00",
       "notes": "Screen 3 · Silver Screen · Digital",
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/d7278069-8106-5146-af04-2056a237225d"
-    },
-    {
-      "cinema": "Tyneside Cinema",
-      "title": "Case 137",
-      "date": "2026-10-21",
-      "time": "15:00",
-      "notes": "Screen not supplied by feed",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875401/"
-    },
-    {
-      "cinema": "Tyneside Cinema",
-      "title": "Tenzing",
-      "date": "2026-10-21",
-      "time": "15:20",
-      "notes": "Screen not supplied by feed",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1877602/"
     },
     {
       "cinema": "Everyman Newcastle",
@@ -346,36 +290,12 @@
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/789df1a8-355c-5ff6-8ec6-347e0556a835"
     },
     {
-      "cinema": "Tyneside Cinema",
-      "title": "Naza",
-      "date": "2026-10-21",
-      "time": "15:50",
-      "notes": "Screen not supplied by feed",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1870806/"
-    },
-    {
-      "cinema": "Alnwick Playhouse",
-      "title": "Sense & Sensibility",
-      "date": "2026-10-21",
-      "time": "16:15",
-      "notes": "Screen 2",
-      "bookingUrl": "https://www.alnwickplayhouse.co.uk/spektrix/ChooseSeats?EventInstanceId=933377AGRQKDRQLKPDKKMSMGMPMSVCPHG"
-    },
-    {
       "cinema": "Everyman Newcastle",
       "title": "Street Fighter",
       "date": "2026-10-21",
       "time": "16:45",
       "notes": "Screen 2 · Digital",
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/b2eceaf0-8cdf-58da-9c17-4bccf63041df"
-    },
-    {
-      "cinema": "Tyneside Cinema",
-      "title": "The Social Reckoning",
-      "date": "2026-10-21",
-      "time": "17:00",
-      "notes": "Screen not supplied by feed · Captioned for hard of hearing",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1878402/"
     },
     {
       "cinema": "Everyman Newcastle",
@@ -386,36 +306,12 @@
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/db1c3305-c3d9-5a33-9d6b-09f7bddadf66"
     },
     {
-      "cinema": "Tyneside Cinema",
-      "title": "Hadestown: The Musical",
-      "date": "2026-10-21",
-      "time": "17:30",
-      "notes": "Screen not supplied by feed",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1870802/"
-    },
-    {
       "cinema": "Everyman Newcastle",
       "title": "The Uprising",
       "date": "2026-10-21",
       "time": "17:45",
       "notes": "Screen 3 · Digital",
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/7fa175a8-cc5b-584d-b6b3-e2c311f1d4c9"
-    },
-    {
-      "cinema": "Tyneside Cinema",
-      "title": "These Violent Delights",
-      "date": "2026-10-21",
-      "time": "18:00",
-      "notes": "Screen not supplied by feed · Q&A",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1829801/"
-    },
-    {
-      "cinema": "Tyneside Cinema",
-      "title": "Naza",
-      "date": "2026-10-21",
-      "time": "18:10",
-      "notes": "Screen not supplied by feed",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875207/"
     },
     {
       "cinema": "Everyman Newcastle",
@@ -426,14 +322,6 @@
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/da4f6211-4219-579c-a845-11bcb553b5ff"
     },
     {
-      "cinema": "Alnwick Playhouse",
-      "title": "The Cycle of Love",
-      "date": "2026-10-21",
-      "time": "19:15",
-      "notes": "Screen 2",
-      "bookingUrl": "https://www.alnwickplayhouse.co.uk/spektrix/ChooseSeats?EventInstanceId=934377APMVBMVCLVKJDBMSQMNPQPHPTSL"
-    },
-    {
       "cinema": "Everyman Newcastle",
       "title": "Street Fighter",
       "date": "2026-10-21",
@@ -442,44 +330,12 @@
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/593265e5-3641-5ade-9c60-61399bb642ea"
     },
     {
-      "cinema": "Tyneside Cinema",
-      "title": "The Thing [2026]",
-      "date": "2026-10-21",
-      "time": "19:45",
-      "notes": "Screen not supplied by feed",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1857401/"
-    },
-    {
       "cinema": "Everyman Newcastle",
       "title": "Verity",
       "date": "2026-10-21",
       "time": "20:00",
       "notes": "Screen 4 · Digital",
       "bookingUrl": "https://purchase.everymancinema.com/launch/ticketing/41a987c8-79eb-53fa-963b-dfc3f691f53b"
-    },
-    {
-      "cinema": "Tyneside Cinema",
-      "title": "Boorman and the Devil",
-      "date": "2026-10-21",
-      "time": "20:10",
-      "notes": "Screen not supplied by feed",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1835001/"
-    },
-    {
-      "cinema": "Tyneside Cinema",
-      "title": "Digger",
-      "date": "2026-10-21",
-      "time": "20:15",
-      "notes": "Screen not supplied by feed",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1875003/"
-    },
-    {
-      "cinema": "Tyneside Cinema",
-      "title": "Teenage Sex and Death at Camp Miasma",
-      "date": "2026-10-21",
-      "time": "20:30",
-      "notes": "Screen not supplied by feed · 35mm",
-      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1876602/"
     },
     {
       "cinema": "Everyman Newcastle",
@@ -1968,6 +1824,158 @@
       "time": "20:30",
       "notes": "Screen not supplied by feed",
       "bookingUrl": "https://tynesidecinema.co.uk/book-online/1885603/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Corpse Bride [2026]",
+      "date": "2026-10-28",
+      "time": "10:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1884207/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Shaun the Sheep: The Beast of Mossy Bottom",
+      "date": "2026-10-28",
+      "time": "10:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1886804/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Portuguese House",
+      "date": "2026-10-28",
+      "time": "11:00",
+      "notes": "Screen not supplied by feed · Silver Screen",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1864201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "The Lost Children of Tuam",
+      "date": "2026-10-28",
+      "time": "11:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1884007/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-28",
+      "time": "12:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1884204/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Tenzing",
+      "date": "2026-10-28",
+      "time": "12:45",
+      "notes": "Screen not supplied by feed · Captioned for hard of hearing",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1887201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Ghosts: The Possession of Button House",
+      "date": "2026-10-28",
+      "time": "13:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1882604/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Wildwood",
+      "date": "2026-10-28",
+      "time": "14:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1887404/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Possible Love",
+      "date": "2026-10-28",
+      "time": "14:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1886605/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Primetime",
+      "date": "2026-10-28",
+      "time": "15:30",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1872801/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Fatherland",
+      "date": "2026-10-28",
+      "time": "15:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1885001/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "It's My Time",
+      "date": "2026-10-28",
+      "time": "17:10",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1882201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Naza",
+      "date": "2026-10-28",
+      "time": "17:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1886401/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Fatherland",
+      "date": "2026-10-28",
+      "time": "18:15",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1885602/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Ghosts: The Possession of Button House",
+      "date": "2026-10-28",
+      "time": "18:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1883003/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Wildwood",
+      "date": "2026-10-28",
+      "time": "19:40",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1887405/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Ozzy & Black Sabbath: Back to the Beginning",
+      "date": "2026-10-28",
+      "time": "19:45",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1857201/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Primetime",
+      "date": "2026-10-28",
+      "time": "20:20",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1872601/"
+    },
+    {
+      "cinema": "Tyneside Cinema",
+      "title": "Frankenhooker",
+      "date": "2026-10-28",
+      "time": "20:40",
+      "notes": "Screen not supplied by feed",
+      "bookingUrl": "https://tynesidecinema.co.uk/book-online/1870402/"
     }
   ],
   "updateMode": "automatic official-source collection; see per-cinema status",
@@ -1975,40 +1983,40 @@
   "venueStatus": {
     "Alnwick Playhouse": {
       "status": "collected",
-      "collectedAt": "2026-10-21T12:56:02.980648+00:00",
+      "collectedAt": "2026-10-22T12:57:54.447058+00:00",
       "coverage": {
-        "from": "2026-10-21",
-        "through": "2026-10-27"
+        "from": "2026-10-22",
+        "through": "2026-10-28"
       },
       "source": "https://system.spektrix.com/alnwickplayhouse/api/v3",
       "sources": [
         {
-          "url": "https://system.spektrix.com/alnwickplayhouse/api/v3/events?instanceStart_from=2026-10-21&instanceStart_to=2026-10-28&attribute_Type=Film&attribute_SendToWebsite=1",
-          "sha256": "a890e090d0348ebf2db380cf82c5a80e5a7bf0454cbf4d087943d39445aa7231"
+          "url": "https://system.spektrix.com/alnwickplayhouse/api/v3/events?instanceStart_from=2026-10-22&instanceStart_to=2026-10-29&attribute_Type=Film&attribute_SendToWebsite=1",
+          "sha256": "60b373f723bc4d24e23c9fe62300f4295883ee4eac4279f39ba0bd0863692fdf"
         },
         {
-          "url": "https://system.spektrix.com/alnwickplayhouse/api/v3/instances?startFrom=2026-10-21&startTo=2026-10-28&eventattribute_Type=Film&eventattribute_SendToWebsite=1",
-          "sha256": "858830609d90a1aff66462598dc98b8b93bcc2337849f49080a1b9214ad8d3f8"
+          "url": "https://system.spektrix.com/alnwickplayhouse/api/v3/instances?startFrom=2026-10-22&startTo=2026-10-29&eventattribute_Type=Film&eventattribute_SendToWebsite=1",
+          "sha256": "0926d32bd49acaa045f951162d3055fdf4c6c12e8e69c477e50ea47f0ac8e666"
         }
       ],
       "collectionMode": "live-public-api"
     },
     "Tyneside Cinema": {
       "status": "collected",
-      "collectedAt": "2026-10-21T12:56:04.076731+00:00",
+      "collectedAt": "2026-10-22T12:57:55.286170+00:00",
       "coverage": {
-        "from": "2026-10-21",
-        "through": "2026-10-27"
+        "from": "2026-10-22",
+        "through": "2026-10-28"
       },
       "source": "",
       "sources": [
         {
-          "url": "https://system.spektrix.com/tynesidecinema/api/v3/events?instanceStart_from=2026-10-21&instanceStart_to=2026-10-28",
-          "sha256": "822fc758f4c071603debb48ae8ee1dcb17507cdca033af7f1597444c27d96411"
+          "url": "https://system.spektrix.com/tynesidecinema/api/v3/events?instanceStart_from=2026-10-22&instanceStart_to=2026-10-29",
+          "sha256": "bb6b06b0ffdb22a58e9bcdaad76f8fb0a50735927f94bd5832725c95af685973"
         },
         {
-          "url": "https://system.spektrix.com/tynesidecinema/api/v3/instances?startFrom=2026-10-21&startTo=2026-10-28",
-          "sha256": "1c98ff763c061c7443341871f0ccc90038da4d6bca57fc0954a7dbbc58daeae7"
+          "url": "https://system.spektrix.com/tynesidecinema/api/v3/instances?startFrom=2026-10-22&startTo=2026-10-29",
+          "sha256": "d6e3d529285f13e2d79bd7ad1b67ece3f066aef3a843c907aa02e0be992c489b"
         }
       ],
       "collectionMode": "live-public-source"
@@ -2032,7 +2040,7 @@
         }
       ],
       "collectionMode": "live-public-source",
-      "lastAttemptAt": "2026-10-21T12:56:07.877324+00:00",
+      "lastAttemptAt": "2026-10-22T12:57:58.887024+00:00",
       "error": "Official-source collector failed (exit 1); see run log"
     },
     "Vue Cramlington": {
@@ -2053,5 +2061,5 @@
       "error": "Official automated source unavailable; no verified programme"
     }
   },
-  "generatedAt": "2026-10-21T12:56:07.880605+00:00"
+  "generatedAt": "2026-10-22T12:57:58.893094+00:00"
 }
